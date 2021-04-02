@@ -4,17 +4,17 @@
 // min(3, -1) == -1
 // min(1, 1) == 1
 
-// function minReturn(a,b) {
-//   if (a > b) {
-//     confirm(a);
-//   }else {
-//     confirm(b);
-//   }
-// }
+function minReturn(a,b) {
+  if (a > b) {
+    confirm(a);
+  }else {
+    confirm(b);
+  }
+}
 
-// minReturn(2, 5);
-// minReturn(-1, 3);
-// minReturn(1, 1);
+minReturn(2, 5);
+minReturn(-1, 3);
+minReturn(1, 1);
 
 //  ------------------------------------------------------------------------------------------------------------------------
 
@@ -42,3 +42,4 @@ function exponentiation() {
   }
 }
 exponentiation();
+
