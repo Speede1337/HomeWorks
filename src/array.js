@@ -6,28 +6,28 @@
 
 // P.S. Ноль 0 – считается числом, не останавливайте ввод значений при вводе «0».
 
-// const arr = [];
-// const sumInput = () => {
-//   while(true) {
-//     const value = prompt("Введите цифры");
-//     if(value === "" || value === null || !isFinite(value)) {
-//       break;
-//     } else {
-//       arr.push(+value);
-//     }
-//   }
-//   console.log(getSumNumbersArr());
-// }
+const arr = [];
+const sumInput = () => {
+  while(true) {
+    const value = prompt("Введите цифры");
+    if(value === "" || value === null || !isFinite(value)) {
+      break;
+    } else {
+      arr.push(+value);
+    }
+  }
+  console.log(getSumNumbersArr());
+}
 
-// const getSumNumbersArr = () => {
-//   let sum = 0;
-//   for (let number of arr) {
-//     sum += number;
-//   }
-//   return sum;
-// }
+const getSumNumbersArr = () => {
+  let sum = 0;
+  for (let number of arr) {
+    sum += number;
+  }
+  return sum;
+}
 
-// sumInput();
+sumInput();
 
 
 // На входе массив чисел, например: arr = [1, -2, 3, 4, -9, 6].
