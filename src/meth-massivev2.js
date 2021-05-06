@@ -138,9 +138,3 @@ function unique() {
 
   return result;
 }
-
-let strings = ["кришна", "кришна", "харе", "харе",
-  "харе", "харе", "кришна", "кришна", ":-O"
-];
-
-console.log( unique(strings) );
