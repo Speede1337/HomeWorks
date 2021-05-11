@@ -6,20 +6,20 @@
 // P.P.S. Нам не следует модифицировать сами объекты сообщений, добавлять туда свойства.
 //  Если сообщения принадлежат какому-то другому коду, то это может привести к плохим последствиям.
 
-let messages = [
-  {text: "Hello", from: "John"},
-  {text: "Wazzup?", from: "John"},
-  {text: "See you soon", from: "Alice"},
-];
+// let messages = [
+//   {text: "Hello", from: "John"},
+//   {text: "Wazzup?", from: "John"},
+//   {text: "See you soon", from: "Alice"},
+// ];
 
-let checkedMessages = new WeakSet(messages);
+// let checkedMessages = new WeakSet(messages);
 
-checkedMessages.add(messages[0]);
-checkedMessages.add(messages[1]);
+// checkedMessages.add(messages[0]);
+// checkedMessages.add(messages[1]);
 
-console.log(checkedMessages.has(messages[1]));
+// console.log(checkedMessages.has(messages[1]));
 
-messages.shift();
+// messages.shift();
 
 
 // Напишите деструктурирующее присваивание, которое:
@@ -27,13 +27,13 @@ messages.shift();
 //     свойство years присвоит в переменную age.
 //     свойство isAdmin присвоит в переменную isAdmin (false, если нет такого свойства)
     
-const user = {
-  name: "John",
-  years: 30
-};
+// const user = {
+//   name: "John",
+//   years: 30
+// };
 
-const {name, years: age, isAdmin = false} = user;
+// const {name, years: age, isAdmin = false} = user;
 
-console.log(name);
-console.log(age);
-console.log(isAdmin);
+// console.log(name);
+// console.log(age);
+// console.log(isAdmin);
